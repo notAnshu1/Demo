@@ -1,0 +1,103 @@
+
+.box1{
+    margin: 4px;
+    border: 1px solid;
+    height: 700px;
+    width: 220px;
+    max-width: 600px;
+   padding: 35px;
+    background-color:whitesmoke;
+    float: right;
+    position: relative;
+}
+.Rdr1{
+    width: 220;
+    height: 271px;
+    max-width: 600px;
+    object-fit: contain;
+}
+.text1{
+    text-align: center;
+    position: relative;
+    bottom: 320px;
+}
+
+
+.box2{
+    margin: 4px;
+    padding:5px;
+    border: 1px solid;
+    width: 260px;
+    height: 220px;
+    float: left;
+    position: relative;
+}
+
+
+.Rdr2{
+    width: 260px;
+    height: 141px;
+    float: left;
+
+}
+.text2{
+    font-size:smaller;
+    position: relative;
+    top: 5px;
+}
+    
+ .box3{
+    margin: 4px;
+    padding:6px;
+    border: 1px solid;
+    float: right;
+    width: 290px;
+    height: 250px;
+    position:relative;
+    bottom: 40px;
+
+ }
+.Rdr3{
+    width:290px;
+    height: 170px;
+}
+.text3{
+    font-size: smaller;
+    text-align: center;
+}
+
+
+
+
+.one{
+    text-align:left;
+    font-size: large;
+}
+.two{
+    text-align:left;
+    font-size: large;
+}
+.three{
+    text-align:left;
+    font-size: large;
+}
+.four{
+    text-align:left;
+    font-size: large;
+}
+.five{
+    text-align:left;
+    font-size: large;
+}
+.six{
+    text-align:left;
+    font-size: large;
+}
+.seven{
+    text-align:left;
+    font-size: large;
+}
+.eight{
+    text-align:left;
+    font-size: large;
+}
