@@ -2,7 +2,9 @@
 .box1{
     margin: 4px;
     border: 1px solid;
-    max-height:780px;
+    width: 100%;
+    height: 100%;
+    max-height: 840px;
     max-width: 240px;
    padding: 35px;
     background-color:whitesmoke;
@@ -11,16 +13,16 @@
     overflow: hidden;
 }
 .Rdr1{
-    max-height: 271px;
+  width: 100%;
     max-width: 220px;
     position: relative;
-    bottom: 8px;
+    top: 50px;
     left:8px;
 }
 .text1{
     text-align: center;
     position: relative;
-    bottom: 325px;
+    bottom: 280px;
 }
 .a{
     line-height: 115%;
@@ -36,7 +38,7 @@
     line-height: 1px;
     word-spacing: normal;
     position: relative;
-    bottom: 20px;
+    top:50px;
     font-size:13.5px;
     max-width: 500px;
       }
@@ -45,11 +47,11 @@
 #Table1 .cell2{
 text-align:left;
 vertical-align: top;
-line-height: 2px;
+line-height: 1px;
 word-spacing: normal;
 position: relative;
 left: 15px;
-bottom: 20px;
+top:50px;
 font-size:13.5px;
 max: width 500px;
   }
@@ -58,8 +60,9 @@ max: width 500px;
     margin: 4px;
     padding:5px;
     border: 1px solid;
+    width: 100%;
     max-width: 260px;
-    max-height: 220px;
+    max-height: 235px;
     float: left;
     position: relative;
     overflow: hidden;
@@ -67,8 +70,8 @@ max: width 500px;
 
 
 .Rdr2{
+    width: 100%;
     max-width:260px;
-    max-height: 141px;
     float: left;
 
 }
@@ -83,10 +86,10 @@ max: width 500px;
     padding:6px;
     border: 1px solid;
     float: right;
+    width: 100%;
    max-width:290px;
     max-height: 250px;
     position:relative;
-    bottom: 40px;
     overflow: hidden;
 
  }
@@ -99,38 +102,12 @@ max: width 500px;
     text-align:justify;
 }
 
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    overflow-x: hidden;
 
-
-
-.one{
-    text-align:left;
-    font-size: large;
 }
-.two{
-    text-align:left;
-    font-size: large;
-}
-.three{
-    text-align:left;
-    font-size: large;
-}
-.four{
-    text-align:left;
-    font-size: large;
-}
-.five{
-    text-align:left;
-    font-size: large;
-}
-.six{
-    text-align:left;
-    font-size: large;
-}
-.seven{
-    text-align:left;
-    font-size: large;
-}
-.eight{
-    text-align:left;
-    font-size: large;
+hr{
+    border: 1px solid;
 }
