@@ -57,7 +57,7 @@ position: relative;
 left: 10px;
 top:10px;
 font-size:13.5px;
-max: width 500px;
+max-width :500px;
 
   }
 
@@ -161,5 +161,35 @@ hr{
  }
 
 
-
+ ul{
+    list-style-type: none;
+    padding:0;
+    margin: 0;
+    background-color:black;
+    height: 40px;
+    border: 1px solid green;
+    
+}
+li{
+  float: left;
+}
+li a{
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-align: center;
+    color: pink;
+}
+li a:hover{
+    background-color:red;
+}
+.active {
+    background-color: #04AA6D;
+  }
+footer{
+    background-color: black;
+    color: red;
+    padding: 25px;
+    text-align:center;
+}
 
