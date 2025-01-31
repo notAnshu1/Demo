@@ -1,21 +1,18 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 body{
     font-family: 'Times New Roman', Times, serif;
     font-size: large;
     overflow-x: hidden;
 }
-
-.box1{
-    margin: 4px;
-    border: 1px solid;
-    width: 100%;
-    height: 100%;
-    max-height: 810px;
-    max-width: 240px;
-   padding: 35px;
-    background-color:whitesmoke;
-    float:right;
-    position: relative;
-    overflow: hidden;
+p{
+    margin: 10px;
+}
+#tt{
+    float: right;
 }
 .Rdr1{
     width: 100%;
@@ -36,32 +33,6 @@ body{
   right:30px;
 
 }
-
-#Table1 .cell1{
-    text-align: left;
-    vertical-align: top;
-    line-height: 1px;
-    position: relative;
-    bottom:10px;
-    font-size:13.5px;
-
-    max-width: 500px;
-      }
-
-
-#Table1 .cell2{
-text-align:center;
-vertical-align: top;
-line-height: 2px;
-position: relative;
-left: 10px;
-bottom:10px;
-font-size:13.5px;
-max-width :500px;
-
-  }
-
-
 
 
 .box2{
@@ -132,46 +103,46 @@ hr{
     position:relative;
     display: flex;
     float: right;
+    gap:5px;
 
 
 
  }
- .dev1{
-   width:192px;
-    height: 280px;
-
-}
-.dev2{
-    width:192px;
-  height: 280px;
-    position: relative;
-    left:5px;
-
-}
-
- .ctxt1{
-    position: relative;
-    font-size: medium;
-    top: 325px;
-    right: 380px;
+ #dev1{
+    
+    width: 100%;
+     height: 280px;
  
+ }
+ #dev2{
+  
+     width: 100%;
+   height: 280px;
+
+}
+#devtxt{
+    position: relative;
+    position: absolute;
+    bottom: 0;
+    font-size:smaller;
+   
  }
  header{
         text-shadow: 2px 2px 5px red;
  }
 
 
- ul{
+ nav ul{
     margin: 0;
     padding:0;
     list-style-type: none;
     background-color:black;
 }
-ul li{
+nav ul li{
     display: inline-block;
     position: relative;
 }
-ul li a{
+nav ul li a{
     display: block;
     text-align: center;
     text-decoration: none;
@@ -179,10 +150,10 @@ ul li a{
     text-align: center;
     color: white;
 }
-ul li ul.dropdown li{
+nav ul li ul.dropdown li{
     display:block;
 }
-ul li ul.dropdown{
+nav ul li ul.dropdown{
     position:absolute;
     display: none;
     margin: 0;
@@ -191,11 +162,11 @@ ul li ul.dropdown{
 
 }
 
-ul li:hover ul.dropdown{
+nav ul li:hover ul.dropdown{
     display: block;
 }
 
-li a:hover{
+nav li a:hover{
     background-color:red;
 }
 .active {
@@ -206,4 +177,40 @@ footer{
     color: red;
     padding: 25px;
     text-align:center;
+}
+@media only screen and (max-width: 550px) {
+body{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+   #tt{
+    float: none;
+    display: flex;
+    margin: auto;
+   }
+   .devside{
+    width:350px;
+    float: none;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+   }
+    #dev1{
+     
+         height: 280px;
+     
+     }
+     #dev2{
+    
+       height: 280px;
+    
+ }
+ #devtxt{
+    position: relative;
+    position: absolute;
+    bottom: 0;
+    font-size:small;
+ }
+ 
 }
